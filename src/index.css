@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,147 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 500px;
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  /* background-image: radial-gradient(circle, #f5f7fa, #b8c6db 100%); */
+  background-color: rgb(240, 183, 240);
+}
+
+.upper-mobile {
+  position: relative;
+  height: 45%;
+  width: 93%;
+  border: solid 3px black;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.lower-mobile {
+  position: relative;
+  height: 230px;
+  width: 280px;
+
+}
+
+.outer-wheel {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  top: 15px;
+  left: 40px;
+  border-radius: 100%;
+  z-index: 1;
+
+
+}
+
+.inner-wheel {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 75px;
+  left: 100px;
+  background-color: rgb(240, 183, 240);
+  border-radius: 100%;
+  z-index: 5;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  color: #4f6c97;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'Courier New', Courier, monospace;
+  left: 70px;
+  z-index: 5;
+
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.fast-forward-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 140px;
+  top: 70px;
+  z-index: 5;
+
+}
+
+.rewind-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 70px;
+  z-index: 5;
+
+}
+
+.rewind-btn img {
+  width: 45px;
+}
+
+.play-pause-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 140px;
+  left: 70px;
+  z-index: 6;
+
+
+}
+
+.song-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(247, 195, 247);
+  overflow: hidden;
+}
+
+.song-container img {
+  min-height: 100%;
+
+}
+
+.menu-image {
+  position: absolute;
+  top: 0px;
+  min-height: 100%;
+  z-index: ;
 }
