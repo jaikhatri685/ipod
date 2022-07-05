@@ -48,7 +48,7 @@ class Mobile extends React.Component {
   };
 
   clickedMiddle = () => {
-    if (this.state.MenuState.MainMenu == true) {
+    if (this.state.MenuState.MainMenu === true) {
       var index = Array.from(document.getElementsByTagName("li")).indexOf(
         document.getElementsByClassName("active")[0]
       );
@@ -61,11 +61,11 @@ class Mobile extends React.Component {
 
       this.setState({ MenuState: obj });
     }
-    if (this.state.MenuState.Music == true) {
+    if (this.state.MenuState.Music === true) {
       var index = Array.from(document.getElementsByTagName("li")).indexOf(
         document.getElementsByClassName("active")[0]
       );
-      if (index == 0) {
+      if (index === 0) {
         var obj = this.state.MenuState;
         obj["AllSongs"] = true;
         obj["Music"] = false;

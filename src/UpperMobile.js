@@ -3,9 +3,9 @@ import CoverFlowImage from "./coverflow.jpg";
 import GamesImage from "./game.jpg";
 import SettingsImage from "./settings.png";
 import VerticalMenu from "./VerticalMenu";
-import ZingTouch from "zingtouch";
+import ZingTouch from 'zingtouch';
 import Song from "./Song.js";
-const UpperMobile = (props) => {
+function UpperMobile(props) {
   useEffect(() => {
     function temp() {
       var angle = 0;
