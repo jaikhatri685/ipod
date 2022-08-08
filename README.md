@@ -1,5 +1,5 @@
 # DEMO WEBSITE
-https://62c42a13c7cda758781ef80f--chic-sprite-68ed44.netlify.app/
+https://khatrijai.github.io/ipod/
 
 
 # Getting Started with Create React App
