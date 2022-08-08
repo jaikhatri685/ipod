@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ipod/static/css/main.e08a72b0.css",
+    "main.js": "/ipod/static/js/main.c96e27a8.js",
+    "static/media/song.mp3": "/ipod/static/media/song.95ba6b7ada6d7f1b1301.mp3",
+    "static/media/coverflow.jpg": "/ipod/static/media/coverflow.cbe0741597dc95d7b015.jpg",
+    "static/media/settings.png": "/ipod/static/media/settings.e220bbbb916e4b2b625c.png",
+    "static/media/game.jpg": "/ipod/static/media/game.3a5b9c9de01e561d917f.jpg",
+    "index.html": "/ipod/index.html",
+    "main.e08a72b0.css.map": "/ipod/static/css/main.e08a72b0.css.map",
+    "main.c96e27a8.js.map": "/ipod/static/js/main.c96e27a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e08a72b0.css",
+    "static/js/main.c96e27a8.js"
+  ]
+}
